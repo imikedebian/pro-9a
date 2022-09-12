@@ -808,9 +808,28 @@ input {
     justify-content: space-evenly;
   }
 
+  .download-content {
+    width: 300px;
+    text-align: center;
+    border: 2px solid black;
+  }
+
+  .download-content h1 {
+    font-size: 30px;
+    font-weight: 700;
+  
+  }
+  
+  .download-content span {
+    font-weight: 400;
+  }
+
+
+
   .download-email {
     width: 300px;
   }
+
 
   form {
     display: flex;
@@ -839,9 +858,9 @@ input {
     margin: 0px auto;
     margin-left: -70px;
     border-radius: 20px;
-
     border: none;
   }
+
 
 
   /* ---- Footer ----- */
