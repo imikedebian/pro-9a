@@ -4,8 +4,7 @@
 
 /* Injected By Me */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;800;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;800;900&display=swap");
 
 * {
   margin: 0;
@@ -131,8 +130,6 @@ nav {
   font-size: 40px;
 }
 
-
-
 /* ---- CARDS ---- */
 
 .cards {
@@ -174,7 +171,6 @@ nav {
   margin-top: -9px;
 }
 
-
 .card-1 {
   height: 170px;
   width: 125px;
@@ -189,7 +185,7 @@ nav {
   display: flex;
   width: 40px;
   height: 40px;
-  background-color: #4517FF;
+  background-color: #4517ff;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -360,7 +356,6 @@ nav {
 .download-content h1 {
   font-size: 30px;
   font-weight: 700;
-
 }
 
 .download-content span {
@@ -373,7 +368,6 @@ nav {
   background-color: #e8ecff;
   border-radius: 20px;
 }
-
 
 input {
   background-color: #e8ecff;
@@ -398,7 +392,6 @@ input {
 }
 
 /*---- Footer ----*/
-
 
 .footer-section {
   background-color: #4517ff;
@@ -464,9 +457,7 @@ input {
   padding: 0px;
 }
 
-
 @media screen and (min-width: 769px) and (max-width: 1100px) {
-
   header {
     height: auto;
   }
@@ -612,12 +603,9 @@ input {
   .list-items {
     padding: 0px;
   }
-
 }
 
-
 @media screen and (max-width: 768px) {
-
   nav {
     margin: 10px 20px;
   }
@@ -635,9 +623,7 @@ input {
     width: 35px;
   }
 
-
   /* ------------------------- */
-
 
   header {
     height: auto;
@@ -737,7 +723,7 @@ input {
 
   .blog-cards {
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
     margin: 20px 60px;
   }
 
@@ -750,7 +736,6 @@ input {
   .right-part {
     width: 100%;
   }
-
 
   /* ------- FAQs  ------ */
 
@@ -798,7 +783,6 @@ input {
     width: 100%;
   }
 
-
   /* ----- Download ----- */
 
   .download-section {
@@ -811,34 +795,27 @@ input {
   .download-content {
     width: 300px;
     text-align: center;
-    border: 2px solid black;
   }
 
   .download-content h1 {
     font-size: 30px;
     font-weight: 700;
-  
   }
-  
+
   .download-content span {
     font-weight: 400;
   }
-
-
 
   .download-email {
     width: 300px;
   }
 
-
   form {
     display: flex;
-    /* border: 2px solid black; */
     width: auto;
   }
 
   input {
-    /* border: 2px solid black; */
     width: auto;
     background-color: #e8ecff;
     font-size: 12px;
@@ -850,7 +827,6 @@ input {
   }
 
   .download-email button {
-    /* display: none; */
     background-color: #5b30fc;
     color: white;
     font-size: 12px;
@@ -860,8 +836,6 @@ input {
     border-radius: 20px;
     border: none;
   }
-
-
 
   /* ---- Footer ----- */
 
@@ -888,5 +862,4 @@ input {
     width: auto;
     gap: 15px;
   }
-
 }
