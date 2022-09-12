@@ -519,7 +519,6 @@ input {
   }
 
   .cards {
-    border: 2px solid black;
     width: 100%;
     justify-content: center;
     gap: 30px;
